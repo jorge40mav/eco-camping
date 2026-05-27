@@ -20,7 +20,7 @@ while ejecutando:
         print(f"\n[INFO]sitios libres para recibir vehiculos: {disponible}")
     elif opcion == 2:
         sitios_libres = capacidad_maxima - sitios_ocupados
-        if sitios_libres == 0
+        if sitios_libres == 0:
            print("lo sentimos mo queda espacios en el camping")
         else:
             try:
@@ -40,7 +40,7 @@ while ejecutando:
             print("No hay vehiculos registrados en el camping actualmente")
         else:
             try:
-                salida = int(input{"cuantos vehiculos se retiran"}) 
+                salida = int (input{"cuantos vehiculos se retiran"}) 
                 if salida <= 0:
                     print("Error la cantidad debe ser mayor a 0")   
                 elif salida > sitios_ocupados:
