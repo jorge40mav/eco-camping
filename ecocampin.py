@@ -31,12 +31,8 @@ while ejecutando:
                     print(f"solo puede ingresar un maximo de {sitios_libres}sitios")
                 else:
                     sitios_ocupados += ingreso
-                    print(f"ingresos regisyrado se han ocupado")
-
-            
-
-
-
-
+                    print(f"ingresos registrado se han ocupado{ingreso} de sitios")
+            except ValueError:
+                print("Error: debe ingresar un numero valido")
     else:
         print("opcion fuera de rango")
